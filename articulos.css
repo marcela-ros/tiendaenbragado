@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(211, 211, 211, 0.548);
+}
+
+#grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  /* 4 columnas iguales */
+}
+
+.caja {
+    background-color: white;   /* fondo blanco, porque uso JPG */
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 20px ;
+    margin: 20px;   /* exterior */
+    padding: 10px;  /* interior */
+    text-align: center;  /* alinea al centro texto e imagen */
+}
+
+
+.descripcion {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    border-bottom-style: solid;
+    border-bottom: 2px;
+}
+
+.venta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.imagen {
+    width: 100%;    /* ancho = 100% de la caja */
+    height: auto;   /* alto auto para que no se deforme */
+    transition: all 1s;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}

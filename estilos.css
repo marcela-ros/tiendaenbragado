@@ -1,0 +1,69 @@
+body {
+    background-color: rgba(139, 184, 123, 0.868);
+}
+
+form {
+    display: flex;
+    justify-content: center;   /* centra el fieldset */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 60px;    
+}
+
+fieldset {
+    width: 30vw;   /* 30% de la pantalla */
+    display: flex;
+    flex-direction: column;  /* uno abajo del otro */
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+legend {
+    text-align: center;   /* centra el título */
+    padding: 0px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+label {
+    margin: 0px 20px;
+}
+
+input {
+    border-style: none;      /* sin borde */
+    border-radius: 15px;     /* borde redondeado */
+    padding: 10px;           /* margen interno */
+    margin: 10px;            /* margen externo */
+}
+
+button {
+    align-self: flex-end;  /*ubica el botón a la derecha */
+    margin-top: 30px;
+    width: fit-content;  /* se ajusta al contenido */
+    padding: 10px 40px;
+    background-color: brown;
+    color: cornsilk;
+    border-style: none;       /* sin borde */
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: darkslategrey;
+}
+
+a {
+    align-self: flex-end;  /*ubica el botón a la derecha */
+    margin-top: 30px;
+    margin-right: 15px;   
+    text-decoration: none;
+    color: brown; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkslategrey
+}
